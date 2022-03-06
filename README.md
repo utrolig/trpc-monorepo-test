@@ -33,3 +33,9 @@ pnpm dev
 cd apps/web
 pnpm dev
 ```
+
+# Typecheck web to reproduce error
+```bash
+cd apps/web
+pnpm typecheck
+```
