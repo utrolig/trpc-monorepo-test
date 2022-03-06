@@ -7,6 +7,10 @@ pnpm install
 ```
 
 # Copy .env example
+```bash
+cd apps/api
+cp .env.example .env
+```
 
 If you need authentication to work, you will have to create a discord application and set the callback url to: `http://localhost:400/api/auth/discord/callback`
 
